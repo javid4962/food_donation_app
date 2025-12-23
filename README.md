@@ -1,22 +1,22 @@
-# 🍽️ Food Donation Tracker
+# Food Donation Tracker
 
 A comprehensive Flutter application for managing food donations with role-based access control, donation tracking, and reward systems.
 
-## 📋 Project Description
+## Project Description
 
 Food Donation Tracker is a mobile application designed to help individuals and organizations track their food donations, monitor their impact, and earn rewards for their contributions. The app supports multiple user roles (Admin, User, Donor) with tailored dashboards and features for each role.
 
 The application uses local storage (Hive and SharedPreferences) for data persistence, making it fully functional offline while maintaining a modern, responsive UI that adapts to all device sizes.
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication & User Management
+### Authentication & User Management
 - **Secure Login System**: Email and password-based authentication
 - **User Registration**: Sign up with role selection (Admin, User, Donor)
 - **Session Management**: Persistent login sessions using SharedPreferences
 - **Profile Management**: Update profile information and privacy settings
 
-### 👥 Role-Based Dashboards
+### Role-Based Dashboards
 - **Admin Dashboard**: 
   - View all donations across the platform
   - Monitor total users and donors
@@ -35,7 +35,7 @@ The application uses local storage (Hive and SharedPreferences) for data persist
   - View reward progress
   - Access donation history
 
-### 📦 Donation Management
+### Donation Management
 - **Add Donations**: Record food donations with details
   - Food item name
   - Quantity in kilograms
@@ -44,24 +44,24 @@ The application uses local storage (Hive and SharedPreferences) for data persist
 - **Donation History**: View all past donations with dates
 - **Statistics Tracking**: Monitor total donations and quantities
 
-### 🏆 Reward System
+### Reward System
 - **6 Reward Levels**: From Bronze Helper to Elite Champion
 - **Progress Tracking**: Visual progress bars showing advancement
 - **Level Requirements**: Clear goals for each reward tier
 - **Reward Details**: View available rewards for each level
 
-### 🎨 User Interface
+### User Interface
 - **Responsive Design**: Adapts to mobile, tablet, and desktop screens
 - **Modern UI**: Clean, green-themed interface inspired by food donation concepts
 - **Intuitive Navigation**: Easy-to-use navigation between screens
 - **Image Support**: Upload and display donation photos
 
-### 💾 Data Storage
+### Data Storage
 - **Hive Database**: Efficient local storage for users and donations
 - **SharedPreferences**: Lightweight storage for authentication state
 - **Offline Support**: Fully functional without internet connection
 
-## 🚀 Installation Steps
+## Installation Steps
 
 ### Prerequisites
 - Flutter SDK (3.10.1 or higher)
@@ -99,7 +99,7 @@ The application uses local storage (Hive and SharedPreferences) for data persist
    flutter build web
    ```
 
-## 📁 Project File Structure
+## Project File Structure
 
 ```
 food_donation/
@@ -134,7 +134,7 @@ food_donation/
 └── README.md                     # This file
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Core Dependencies
 - **flutter**: SDK framework
@@ -152,22 +152,22 @@ food_donation/
 - **hive_generator**: ^2.0.1 - Code generation for Hive
 - **build_runner**: ^2.4.7 - Code generation runner
 
-## 📱 App Overview
+## App Overview
 
 ### User Roles
 
-#### 👤 User
+#### User
 - Track personal food donations
 - View donation history
 - Monitor reward progress
 - Update profile settings
 
-#### 🎁 Donor
+#### Donor
 - All User features
 - Enhanced donation tracking
 - Donor-specific statistics
 
-#### 👨‍💼 Admin
+#### Admin
 - View all platform donations
 - Monitor total users and donors
 - Access comprehensive analytics
@@ -189,7 +189,7 @@ food_donation/
 - **Donations**: Hive database stores donation records
 - **Statistics**: Calculated in real-time from stored donations
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
   <img src="screenshots/ss1.png" alt="Login Screen" width="200"/>
@@ -202,9 +202,8 @@ food_donation/
   <img src="screenshots/ss8.png" alt="Donation History" width="200"/>
 </div>
 
-*Note: Add your screenshots to the `screenshots/` folder with names ss1.png, ss2.png, etc.*
 
-## 🔮 Upcoming Features
+## Upcoming Features
 
 ### Planned Enhancements
 - [ ] **Cloud Sync**: Synchronize data across devices using Firebase
@@ -230,20 +229,13 @@ food_donation/
 - [ ] **Accessibility**: Enhanced accessibility features
 - [ ] **Error Handling**: Improved error handling and user feedback
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
+## Author
 
 **Javid**
 - GitHub: [@javid4962](https://github.com/javid4962)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Flutter team for the amazing framework
 - Hive for efficient local storage
